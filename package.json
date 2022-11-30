@@ -1,0 +1,13 @@
+{
+  "name": "tiendamascotas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd tienda-back && npm install && cd ../tienda-front && npm install && npm run build",
+    "start": "node tienda-back/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
